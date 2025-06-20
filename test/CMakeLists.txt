@@ -1,4 +1,4 @@
-dd_executable(LinkedListTests test_main.cpp)
+add_executable(LinkedListTests test_main.cpp)
 
 target_link_libraries(LinkedListTests PRIVATE list)
 
